@@ -1,0 +1,43 @@
+LeNet(
+  (conv1): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (fc_1): Linear(in_features=256, out_features=120, bias=True)
+  (fc_2): Linear(in_features=120, out_features=84, bias=True)
+  (fc_3): Linear(in_features=84, out_features=10, bias=True)
+)
+Loss after 25088 examples: 2.067
+Loss after 50688 examples: 1.963
+Loss after 75872 examples: 1.834
+Accuracy of the model on the 10000 test images: 15.260000%
+Loss after 101472 examples: 1.810
+Loss after 126656 examples: 1.764
+Loss after 152256 examples: 1.716
+Accuracy of the model on the 10000 test images: 16.610000%
+Loss after 177856 examples: 1.867
+Loss after 203040 examples: 1.744
+Loss after 228640 examples: 1.785
+Accuracy of the model on the 10000 test images: 19.130000%
+Traceback (most recent call last):
+  File "/Users/felixcohen/PycharmProjects/pythonProject/main.py", line 189, in model_pipeline
+    train(model,train_loader,test_loader,criterion,optimizer,config)
+  File "/Users/felixcohen/PycharmProjects/pythonProject/main.py", line 120, in train
+    for _,(images, labels) in enumerate(loader):
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/Users/felixcohen/PycharmProjects/pythonProject/main.py", line 35, in __getitem__
+    image = self.images.iloc[idx].values
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/pandas/core/indexing.py", line 1153, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/pandas/core/indexing.py", line 1716, in _getitem_axis
+    return self.obj._ixs(key, axis=axis)
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/pandas/core/frame.py", line 3797, in _ixs
+    result._name = self.index[i]
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/pandas/core/indexes/range.py", line 977, in __getitem__
+    if isinstance(key, slice):
+KeyboardInterrupt

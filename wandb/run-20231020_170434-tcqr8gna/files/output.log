@@ -1,0 +1,51 @@
+LeNet(
+  (conv1): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (fc_1): Linear(in_features=256, out_features=120, bias=True)
+  (fc_2): Linear(in_features=120, out_features=84, bias=True)
+  (fc_3): Linear(in_features=84, out_features=10, bias=True)
+)
+Loss after 12544 examples: 0.718
+Loss after 25344 examples: 0.491
+Loss after 38144 examples: 0.338
+Accuracy of the model on the 10000 test images: 89.650000%
+Loss after 50944 examples: 0.329
+Loss after 63584 examples: 0.205
+Loss after 76384 examples: 0.226
+Accuracy of the model on the 10000 test images: 94.480000%
+Loss after 89184 examples: 0.182
+Loss after 101984 examples: 0.129
+Loss after 114784 examples: 0.102
+Accuracy of the model on the 10000 test images: 95.890000%
+Loss after 127424 examples: 0.090
+Loss after 140224 examples: 0.144
+Loss after 153024 examples: 0.142
+Accuracy of the model on the 10000 test images: 96.730000%
+Loss after 165824 examples: 0.143
+Loss after 178624 examples: 0.107
+Loss after 191264 examples: 0.094
+Accuracy of the model on the 10000 test images: 97.150000%
+Loss after 204064 examples: 0.139
+Loss after 216864 examples: 0.158
+Loss after 229664 examples: 0.086
+Accuracy of the model on the 10000 test images: 97.760000%
+Loss after 242304 examples: 0.078
+Loss after 255104 examples: 0.055
+Traceback (most recent call last):
+  File "/Users/felixcohen/PycharmProjects/pythonProject/main.py", line 186, in model_pipeline
+    train(model,train_loader,test_loader,criterion,optimizer,config)
+  File "/Users/felixcohen/PycharmProjects/pythonProject/main.py", line 123, in train
+    loss = train_batch(images,labels,model,optimizer,criterion)
+  File "/Users/felixcohen/PycharmProjects/pythonProject/main.py", line 107, in train_batch
+    optimizer.step()
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/optim/optimizer.py", line 373, in wrapper
+    out = func(*args, **kwargs)
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/optim/optimizer.py", line 76, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/optim/adam.py", line 163, in step
+    adam(
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/optim/adam.py", line 311, in adam
+    func(params,
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/optim/adam.py", line 432, in _single_tensor_adam
+    denom = (exp_avg_sq.sqrt() / bias_correction2_sqrt).add_(eps)
+KeyboardInterrupt

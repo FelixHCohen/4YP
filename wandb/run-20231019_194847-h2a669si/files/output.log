@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/felixcohen/PycharmProjects/pythonProject/main.py", line 178, in model_pipeline
+    model,train_loader,test_loader,criterion,optimizer = make(config)
+  File "/Users/felixcohen/PycharmProjects/pythonProject/main.py", line 173, in make
+    return model,train_loader,test_loader,criterion,optimizer
+NameError: name 'criterion' is not defined

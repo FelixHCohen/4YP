@@ -1,0 +1,56 @@
+LeNet(
+  (conv1): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (fc_1): Linear(in_features=256, out_features=120, bias=True)
+  (fc_2): Linear(in_features=120, out_features=84, bias=True)
+  (fc_3): Linear(in_features=84, out_features=10, bias=True)
+)
+Loss after 12544 examples: 1.895
+Loss after 25344 examples: 1.818
+Loss after 38144 examples: 1.663
+Accuracy of the model on the 10000 test images: 13.400000%
+Loss after 50944 examples: 1.722
+Loss after 63584 examples: 1.815
+Loss after 76384 examples: 1.717
+Accuracy of the model on the 10000 test images: 16.190000%
+Loss after 89184 examples: 1.761
+Loss after 101984 examples: 1.798
+Loss after 114784 examples: 1.793
+Accuracy of the model on the 10000 test images: 23.670000%
+Loss after 127424 examples: 1.671
+Loss after 140224 examples: 1.813
+Loss after 153024 examples: 1.727
+Accuracy of the model on the 10000 test images: 24.220000%
+Loss after 165824 examples: 1.775
+Loss after 178624 examples: 1.757
+Loss after 191264 examples: 1.859
+Accuracy of the model on the 10000 test images: 22.200000%
+Loss after 204064 examples: 1.718
+Traceback (most recent call last):
+  File "/Users/felixcohen/PycharmProjects/pythonProject/main.py", line 189, in model_pipeline
+    train(model,train_loader,test_loader,criterion,optimizer,config)
+  File "/Users/felixcohen/PycharmProjects/pythonProject/main.py", line 120, in train
+    for _,(images, labels) in enumerate(loader):
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/Users/felixcohen/PycharmProjects/pythonProject/main.py", line 41, in __getitem__
+    image = self.transform(image=image)['image']
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/albumentations/core/composition.py", line 210, in __call__
+    data = t(**data)
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/albumentations/core/transforms_interface.py", line 118, in __call__
+    return self.apply_with_params(params, **kwargs)
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/albumentations/core/transforms_interface.py", line 131, in apply_with_params
+    res[key] = target_function(arg, **dict(params, **target_dependencies))
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/albumentations/augmentations/geometric/transforms.py", line 214, in apply
+    np.random.RandomState(random_state),
+  File "numpy/random/mtrand.pyx", line 184, in numpy.random.mtrand.RandomState.__init__
+  File "_mt19937.pyx", line 132, in numpy.random._mt19937.MT19937.__init__
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+KeyboardInterrupt

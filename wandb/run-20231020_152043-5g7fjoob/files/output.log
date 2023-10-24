@@ -1,0 +1,282 @@
+LeNet(
+  (conv1): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (fc_1): Linear(in_features=256, out_features=120, bias=True)
+  (fc_2): Linear(in_features=120, out_features=84, bias=True)
+  (fc_3): Linear(in_features=84, out_features=10, bias=True)
+)
+Loss after 06272 examples: 2.010
+Loss after 12672 examples: 1.949
+Loss after 19072 examples: 1.857
+Accuracy of the model on the 128 test images: 14.062500%
+Accuracy of the model on the 256 test images: 14.843750%
+Accuracy of the model on the 384 test images: 14.322917%
+Accuracy of the model on the 512 test images: 13.085938%
+Accuracy of the model on the 640 test images: 14.375000%
+Accuracy of the model on the 768 test images: 14.453125%
+Accuracy of the model on the 896 test images: 14.508929%
+Accuracy of the model on the 1024 test images: 14.257812%
+Accuracy of the model on the 1152 test images: 14.409722%
+Accuracy of the model on the 1280 test images: 14.531250%
+Accuracy of the model on the 1408 test images: 15.269886%
+Accuracy of the model on the 1536 test images: 15.169271%
+Accuracy of the model on the 1664 test images: 15.144231%
+Accuracy of the model on the 1792 test images: 14.899554%
+Accuracy of the model on the 1920 test images: 14.791667%
+Accuracy of the model on the 2048 test images: 14.501953%
+Accuracy of the model on the 2176 test images: 14.568015%
+Accuracy of the model on the 2304 test images: 14.496528%
+Accuracy of the model on the 2432 test images: 14.391447%
+Accuracy of the model on the 2560 test images: 14.414062%
+Accuracy of the model on the 2688 test images: 14.099702%
+Accuracy of the model on the 2816 test images: 14.062500%
+Accuracy of the model on the 2944 test images: 14.164402%
+Accuracy of the model on the 3072 test images: 14.160156%
+Accuracy of the model on the 3200 test images: 14.250000%
+Accuracy of the model on the 3328 test images: 14.002404%
+Accuracy of the model on the 3456 test images: 14.033565%
+Accuracy of the model on the 3584 test images: 13.950893%
+Accuracy of the model on the 3712 test images: 13.846983%
+Accuracy of the model on the 3840 test images: 13.671875%
+Accuracy of the model on the 3968 test images: 13.709677%
+Accuracy of the model on the 4096 test images: 13.720703%
+Accuracy of the model on the 4224 test images: 13.731061%
+Accuracy of the model on the 4352 test images: 13.855699%
+Accuracy of the model on the 4480 test images: 13.772321%
+Accuracy of the model on the 4608 test images: 13.867188%
+Accuracy of the model on the 4736 test images: 13.724662%
+Accuracy of the model on the 4864 test images: 13.856908%
+Accuracy of the model on the 4992 test images: 13.822115%
+Accuracy of the model on the 5120 test images: 13.789062%
+Accuracy of the model on the 5248 test images: 13.662348%
+Accuracy of the model on the 5376 test images: 13.671875%
+Accuracy of the model on the 5504 test images: 13.735465%
+Accuracy of the model on the 5632 test images: 13.689631%
+Accuracy of the model on the 5760 test images: 13.784722%
+Accuracy of the model on the 5888 test images: 13.654891%
+Accuracy of the model on the 6016 test images: 13.730053%
+Accuracy of the model on the 6144 test images: 13.785807%
+Accuracy of the model on the 6272 test images: 13.743622%
+Accuracy of the model on the 6400 test images: 13.796875%
+Accuracy of the model on the 6528 test images: 13.832721%
+Accuracy of the model on the 6656 test images: 13.897236%
+Accuracy of the model on the 6784 test images: 13.929835%
+Accuracy of the model on the 6912 test images: 13.975694%
+Accuracy of the model on the 7040 test images: 13.948864%
+Accuracy of the model on the 7168 test images: 14.048549%
+Accuracy of the model on the 7296 test images: 14.076206%
+Accuracy of the model on the 7424 test images: 14.089440%
+Accuracy of the model on the 7552 test images: 14.155191%
+Accuracy of the model on the 7680 test images: 14.179687%
+Accuracy of the model on the 7808 test images: 14.152152%
+Accuracy of the model on the 7936 test images: 14.150706%
+Accuracy of the model on the 8064 test images: 14.186508%
+Accuracy of the model on the 8192 test images: 14.172363%
+Accuracy of the model on the 8320 test images: 14.170673%
+Accuracy of the model on the 8448 test images: 14.133523%
+Accuracy of the model on the 8576 test images: 14.132463%
+Accuracy of the model on the 8704 test images: 14.223346%
+Accuracy of the model on the 8832 test images: 14.232337%
+Accuracy of the model on the 8960 test images: 14.185268%
+Accuracy of the model on the 9088 test images: 14.194542%
+Accuracy of the model on the 9216 test images: 14.192708%
+Accuracy of the model on the 9344 test images: 14.148116%
+Accuracy of the model on the 9472 test images: 14.051943%
+Accuracy of the model on the 9600 test images: 13.968750%
+Accuracy of the model on the 9728 test images: 14.072780%
+Accuracy of the model on the 9856 test images: 14.062500%
+Accuracy of the model on the 9984 test images: 14.042468%
+Accuracy of the model on the 10000 test images: 14.040000%
+Loss after 25472 examples: 1.760
+Loss after 31872 examples: 1.707
+Loss after 38272 examples: 1.776
+Accuracy of the model on the 128 test images: 16.406250%
+Accuracy of the model on the 256 test images: 15.234375%
+Accuracy of the model on the 384 test images: 17.187500%
+Accuracy of the model on the 512 test images: 17.968750%
+Accuracy of the model on the 640 test images: 19.062500%
+Accuracy of the model on the 768 test images: 18.880208%
+Accuracy of the model on the 896 test images: 18.638393%
+Accuracy of the model on the 1024 test images: 18.164062%
+Accuracy of the model on the 1152 test images: 17.968750%
+Accuracy of the model on the 1280 test images: 18.437500%
+Accuracy of the model on the 1408 test images: 17.968750%
+Accuracy of the model on the 1536 test images: 17.838542%
+Accuracy of the model on the 1664 test images: 17.668269%
+Accuracy of the model on the 1792 test images: 17.968750%
+Accuracy of the model on the 1920 test images: 17.552083%
+Accuracy of the model on the 2048 test images: 17.382812%
+Accuracy of the model on the 2176 test images: 17.647059%
+Accuracy of the model on the 2304 test images: 17.708333%
+Accuracy of the model on the 2432 test images: 17.639803%
+Accuracy of the model on the 2560 test images: 17.695312%
+Accuracy of the model on the 2688 test images: 17.745536%
+Accuracy of the model on the 2816 test images: 17.755682%
+Accuracy of the model on the 2944 test images: 17.595109%
+Accuracy of the model on the 3072 test images: 17.480469%
+Accuracy of the model on the 3200 test images: 17.656250%
+Accuracy of the model on the 3328 test images: 17.698317%
+Accuracy of the model on the 3456 test images: 17.737269%
+Accuracy of the model on the 3584 test images: 18.024554%
+Accuracy of the model on the 3712 test images: 17.941810%
+Accuracy of the model on the 3840 test images: 17.812500%
+Accuracy of the model on the 3968 test images: 18.044355%
+Accuracy of the model on the 4096 test images: 18.115234%
+Accuracy of the model on the 4224 test images: 18.252841%
+Accuracy of the model on the 4352 test images: 18.244485%
+Accuracy of the model on the 4480 test images: 18.325893%
+Accuracy of the model on the 4608 test images: 18.359375%
+Accuracy of the model on the 4736 test images: 18.348818%
+Accuracy of the model on the 4864 test images: 18.359375%
+Accuracy of the model on the 4992 test images: 18.409455%
+Accuracy of the model on the 5120 test images: 18.398438%
+Accuracy of the model on the 5248 test images: 18.330793%
+Accuracy of the model on the 5376 test images: 18.303571%
+Accuracy of the model on the 5504 test images: 18.204942%
+Accuracy of the model on the 5632 test images: 18.270597%
+Accuracy of the model on the 5760 test images: 18.298611%
+Accuracy of the model on the 5888 test images: 18.308424%
+Accuracy of the model on the 6016 test images: 18.251330%
+Accuracy of the model on the 6144 test images: 18.212891%
+Accuracy of the model on the 6272 test images: 18.160077%
+Accuracy of the model on the 6400 test images: 18.171875%
+Accuracy of the model on the 6528 test images: 18.244485%
+Accuracy of the model on the 6656 test images: 18.254207%
+Accuracy of the model on the 6784 test images: 18.278302%
+Accuracy of the model on the 6912 test images: 18.229167%
+Accuracy of the model on the 7040 test images: 18.153409%
+Accuracy of the model on the 7168 test images: 18.150112%
+Accuracy of the model on the 7296 test images: 18.146930%
+Accuracy of the model on the 7424 test images: 18.157328%
+Accuracy of the model on the 7552 test images: 18.193856%
+Accuracy of the model on the 7680 test images: 18.242188%
+Accuracy of the model on the 7808 test images: 18.237705%
+Accuracy of the model on the 7936 test images: 18.220766%
+Accuracy of the model on the 8064 test images: 18.092758%
+Accuracy of the model on the 8192 test images: 18.139648%
+Accuracy of the model on the 8320 test images: 18.209135%
+Accuracy of the model on the 8448 test images: 18.205492%
+Accuracy of the model on the 8576 test images: 18.271922%
+Accuracy of the model on the 8704 test images: 18.221507%
+Accuracy of the model on the 8832 test images: 18.229167%
+Accuracy of the model on the 8960 test images: 18.292411%
+Accuracy of the model on the 9088 test images: 18.320863%
+Accuracy of the model on the 9216 test images: 18.391927%
+Accuracy of the model on the 9344 test images: 18.321918%
+Accuracy of the model on the 9472 test images: 18.359375%
+Accuracy of the model on the 9600 test images: 18.427083%
+Accuracy of the model on the 9728 test images: 18.431332%
+Accuracy of the model on the 9856 test images: 18.394886%
+Accuracy of the model on the 9984 test images: 18.359375%
+Accuracy of the model on the 10000 test images: 18.340000%
+Loss after 44672 examples: 1.862
+Loss after 51072 examples: 1.702
+Loss after 57472 examples: 1.747
+Accuracy of the model on the 128 test images: 17.187500%
+Accuracy of the model on the 256 test images: 16.015625%
+Accuracy of the model on the 384 test images: 17.968750%
+Accuracy of the model on the 512 test images: 18.750000%
+Accuracy of the model on the 640 test images: 18.437500%
+Accuracy of the model on the 768 test images: 17.838542%
+Accuracy of the model on the 896 test images: 17.075893%
+Accuracy of the model on the 1024 test images: 18.261719%
+Accuracy of the model on the 1152 test images: 18.229167%
+Accuracy of the model on the 1280 test images: 17.656250%
+Accuracy of the model on the 1408 test images: 17.471591%
+Accuracy of the model on the 1536 test images: 16.927083%
+Accuracy of the model on the 1664 test images: 16.887019%
+Accuracy of the model on the 1792 test images: 16.573661%
+Accuracy of the model on the 1920 test images: 16.718750%
+Accuracy of the model on the 2048 test images: 16.748047%
+Accuracy of the model on the 2176 test images: 16.911765%
+Accuracy of the model on the 2304 test images: 16.883681%
+Accuracy of the model on the 2432 test images: 16.858553%
+Accuracy of the model on the 2560 test images: 16.796875%
+Accuracy of the model on the 2688 test images: 17.075893%
+Accuracy of the model on the 2816 test images: 17.045455%
+Accuracy of the model on the 2944 test images: 17.153533%
+Accuracy of the model on the 3072 test images: 17.220052%
+Accuracy of the model on the 3200 test images: 17.156250%
+Accuracy of the model on the 3328 test images: 17.217548%
+Accuracy of the model on the 3456 test images: 17.274306%
+Accuracy of the model on the 3584 test images: 17.299107%
+Accuracy of the model on the 3712 test images: 17.322198%
+Accuracy of the model on the 3840 test images: 17.369792%
+Accuracy of the model on the 3968 test images: 17.338710%
+Accuracy of the model on the 4096 test images: 17.285156%
+Accuracy of the model on the 4224 test images: 17.424242%
+Accuracy of the model on the 4352 test images: 17.555147%
+Accuracy of the model on the 4480 test images: 17.678571%
+Accuracy of the model on the 4608 test images: 17.860243%
+Accuracy of the model on the 4736 test images: 18.010980%
+Accuracy of the model on the 4864 test images: 18.030428%
+Accuracy of the model on the 4992 test images: 17.968750%
+Accuracy of the model on the 5120 test images: 17.910156%
+Accuracy of the model on the 5248 test images: 17.816311%
+Accuracy of the model on the 5376 test images: 17.950149%
+Accuracy of the model on the 5504 test images: 17.950581%
+Accuracy of the model on the 5632 test images: 17.950994%
+Accuracy of the model on the 5760 test images: 17.968750%
+Accuracy of the model on the 5888 test images: 18.002717%
+Accuracy of the model on the 6016 test images: 18.001995%
+Accuracy of the model on the 6144 test images: 17.952474%
+Accuracy of the model on the 6272 test images: 17.936862%
+Accuracy of the model on the 6400 test images: 17.843750%
+Accuracy of the model on the 6528 test images: 17.861520%
+Accuracy of the model on the 6656 test images: 17.923678%
+Accuracy of the model on the 6784 test images: 17.954009%
+Accuracy of the model on the 6912 test images: 18.055556%
+Accuracy of the model on the 7040 test images: 18.025568%
+Accuracy of the model on the 7168 test images: 17.968750%
+Accuracy of the model on the 7296 test images: 17.804276%
+Accuracy of the model on the 7424 test images: 17.753233%
+Accuracy of the model on the 7552 test images: 17.756886%
+Accuracy of the model on the 7680 test images: 17.864583%
+Accuracy of the model on the 7808 test images: 17.789447%
+Accuracy of the model on the 7936 test images: 17.729335%
+Accuracy of the model on the 8064 test images: 17.857143%
+Accuracy of the model on the 8192 test images: 17.944336%
+Accuracy of the model on the 8320 test images: 17.884615%
+Accuracy of the model on the 8448 test images: 17.814867%
+Accuracy of the model on the 8576 test images: 17.793843%
+Accuracy of the model on the 8704 test images: 17.819393%
+Accuracy of the model on the 8832 test images: 17.742301%
+Accuracy of the model on the 8960 test images: 17.678571%
+Accuracy of the model on the 9088 test images: 17.605634%
+Accuracy of the model on the 9216 test images: 17.599826%
+Accuracy of the model on the 9344 test images: 17.626284%
+Accuracy of the model on the 9472 test images: 17.641470%
+Accuracy of the model on the 9600 test images: 17.687500%
+Accuracy of the model on the 9728 test images: 17.752878%
+Accuracy of the model on the 9856 test images: 17.644075%
+Accuracy of the model on the 9984 test images: 17.668269%
+Accuracy of the model on the 10000 test images: 17.680000%
+Loss after 63840 examples: 1.715
+Traceback (most recent call last):
+  File "/Users/felixcohen/PycharmProjects/pythonProject/main.py", line 186, in model_pipeline
+    train(model,train_loader,test_loader,criterion,optimizer,config)
+  File "/Users/felixcohen/PycharmProjects/pythonProject/main.py", line 120, in train
+    for _,(images, labels) in enumerate(loader):
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/Users/felixcohen/PycharmProjects/pythonProject/main.py", line 41, in __getitem__
+    image = self.transform(image=image)['image']
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/albumentations/core/composition.py", line 210, in __call__
+    data = t(**data)
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/albumentations/core/transforms_interface.py", line 118, in __call__
+    return self.apply_with_params(params, **kwargs)
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/albumentations/core/transforms_interface.py", line 131, in apply_with_params
+    res[key] = target_function(arg, **dict(params, **target_dependencies))
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/albumentations/augmentations/geometric/transforms.py", line 214, in apply
+    np.random.RandomState(random_state),
+  File "numpy/random/mtrand.pyx", line 184, in numpy.random.mtrand.RandomState.__init__
+  File "_mt19937.pyx", line 132, in numpy.random._mt19937.MT19937.__init__
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+KeyboardInterrupt

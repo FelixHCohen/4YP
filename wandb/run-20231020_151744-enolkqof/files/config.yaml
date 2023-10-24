@@ -1,0 +1,58 @@
+wandb_version: 1
+
+epochs:
+  desc: null
+  value: 5
+classes:
+  desc: null
+  value: 10
+kernels:
+  desc: null
+  value:
+  - 6
+  - 16
+batch_size:
+  desc: null
+  value: 128
+learning_rate:
+  desc: null
+  value: 0.005
+dataset:
+  desc: null
+  value: MNIST
+architecture:
+  desc: null
+  value: LeNet
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.6
+    cli_version: 0.15.12
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1697811464.966563
+    t:
+      1:
+      - 1
+      - 5
+      - 53
+      - 55
+      - 80
+      2:
+      - 1
+      - 5
+      - 53
+      - 55
+      - 80
+      3:
+      - 1
+      - 2
+      - 16
+      - 23
+      4: 3.9.6
+      5: 0.15.12
+      8:
+      - 4
+      - 5
+      13: darwin-arm64

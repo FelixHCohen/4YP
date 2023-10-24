@@ -1,0 +1,112 @@
+LeNet(
+  (conv1): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (fc_1): Linear(in_features=256, out_features=120, bias=True)
+  (fc_2): Linear(in_features=120, out_features=84, bias=True)
+  (fc_3): Linear(in_features=84, out_features=10, bias=True)
+)
+Loss after 12544 examples: 0.830
+Loss after 25344 examples: 0.298
+Loss after 38144 examples: 0.262
+Accuracy of the model on the 10000 test images: 92.140000%
+Loss after 50944 examples: 0.203
+Loss after 63584 examples: 0.190
+Loss after 76384 examples: 0.112
+Accuracy of the model on the 10000 test images: 96.000000%
+Loss after 89184 examples: 0.129
+Loss after 101984 examples: 0.075
+Loss after 114784 examples: 0.123
+Accuracy of the model on the 10000 test images: 96.680000%
+Loss after 127424 examples: 0.112
+Loss after 140224 examples: 0.180
+Loss after 153024 examples: 0.121
+Accuracy of the model on the 10000 test images: 97.790000%
+Loss after 165824 examples: 0.043
+Loss after 178624 examples: 0.059
+Loss after 191264 examples: 0.065
+Accuracy of the model on the 10000 test images: 97.830000%
+Loss after 204064 examples: 0.062
+Loss after 216864 examples: 0.090
+Loss after 229664 examples: 0.098
+Accuracy of the model on the 10000 test images: 98.210000%
+Loss after 242304 examples: 0.054
+Loss after 255104 examples: 0.052
+Loss after 267904 examples: 0.043
+Accuracy of the model on the 10000 test images: 98.360000%
+Loss after 280704 examples: 0.023
+Loss after 293504 examples: 0.057
+Loss after 306144 examples: 0.032
+Accuracy of the model on the 10000 test images: 98.420000%
+Loss after 318944 examples: 0.101
+Loss after 331744 examples: 0.049
+Loss after 344544 examples: 0.056
+Accuracy of the model on the 10000 test images: 98.470000%
+Loss after 357344 examples: 0.017
+Loss after 369984 examples: 0.013
+Loss after 382784 examples: 0.039
+Accuracy of the model on the 10000 test images: 98.510000%
+Loss after 395584 examples: 0.039
+Loss after 408384 examples: 0.044
+Loss after 421024 examples: 0.036
+Accuracy of the model on the 10000 test images: 98.600000%
+/Users/felixcohen/pythonProject/lib/python3.9/site-packages/wandb/wandb_torch.py:287: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  return tensor.shape == torch.Size([0]) or (~torch.isfinite(tensor)).all().item()
+/Users/felixcohen/pythonProject/lib/python3.9/site-packages/wandb/wandb_torch.py:287: TracerWarning: Converting a tensor to a Python number might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  return tensor.shape == torch.Size([0]) or (~torch.isfinite(tensor)).all().item()
+/Users/felixcohen/pythonProject/lib/python3.9/site-packages/wandb/wandb_torch.py:290: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  if not torch.isfinite(tensor).all():
+/Users/felixcohen/pythonProject/lib/python3.9/site-packages/wandb/wandb_torch.py:207: TracerWarning: Converting a tensor to a Python number might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  tmin = flat.min().item()
+/Users/felixcohen/pythonProject/lib/python3.9/site-packages/wandb/wandb_torch.py:208: TracerWarning: Converting a tensor to a Python number might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  tmax = flat.max().item()
+/Users/felixcohen/pythonProject/lib/python3.9/site-packages/wandb/wandb_torch.py:243: TracerWarning: Converting a tensor to a Python list might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  {name: wandb.Histogram(np_histogram=(tensor.tolist(), bins.tolist()))},
+Loss after 433824 examples: 0.024
+Loss after 446624 examples: 0.049
+Loss after 459424 examples: 0.045
+Accuracy of the model on the 10000 test images: 98.790000%
+Loss after 472224 examples: 0.038
+Loss after 484864 examples: 0.017
+Loss after 497664 examples: 0.036
+Accuracy of the model on the 10000 test images: 98.620000%
+Loss after 510464 examples: 0.015
+Loss after 523264 examples: 0.006
+Loss after 536064 examples: 0.040
+Accuracy of the model on the 10000 test images: 98.700000%
+Loss after 548704 examples: 0.033
+Loss after 561504 examples: 0.027
+Loss after 574304 examples: 0.028
+Accuracy of the model on the 10000 test images: 98.780000%
+Loss after 587104 examples: 0.039
+Loss after 599904 examples: 0.008
+Loss after 612544 examples: 0.035
+Accuracy of the model on the 10000 test images: 98.680000%
+Loss after 625344 examples: 0.035
+Loss after 638144 examples: 0.088
+Loss after 650944 examples: 0.046
+Accuracy of the model on the 10000 test images: 98.910000%
+Loss after 663584 examples: 0.017
+Loss after 676384 examples: 0.015
+Loss after 689184 examples: 0.025
+Accuracy of the model on the 10000 test images: 98.850000%
+Loss after 701984 examples: 0.031
+Loss after 714784 examples: 0.006
+Loss after 727424 examples: 0.017
+Accuracy of the model on the 10000 test images: 98.800000%
+Loss after 740224 examples: 0.013
+Loss after 753024 examples: 0.031
+Loss after 765824 examples: 0.035
+Accuracy of the model on the 10000 test images: 98.610000%
+Loss after 778624 examples: 0.015
+Loss after 791264 examples: 0.043
+Loss after 804064 examples: 0.012
+Accuracy of the model on the 10000 test images: 98.840000%
+Loss after 816864 examples: 0.022
+Loss after 829664 examples: 0.013
+Loss after 842304 examples: 0.013
+Accuracy of the model on the 10000 test images: 98.830000%
+Loss after 855104 examples: 0.070
+Loss after 867904 examples: 0.008
+Loss after 880704 examples: 0.014
+Accuracy of the model on the 10000 test images: 98.870000%
+Loss after 893504 examples: 0.013

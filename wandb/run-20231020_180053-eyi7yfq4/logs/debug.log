@@ -1,0 +1,35 @@
+2023-10-20 18:00:53,782 INFO    MainThread:80743 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-10-20 18:00:53,782 INFO    MainThread:80743 [wandb_setup.py:_flush():76] Configure stats pid to 80743
+2023-10-20 18:00:53,782 INFO    MainThread:80743 [wandb_setup.py:_flush():76] Loading settings from /Users/felixcohen/.config/wandb/settings
+2023-10-20 18:00:53,782 INFO    MainThread:80743 [wandb_setup.py:_flush():76] Loading settings from /Users/felixcohen/PycharmProjects/pythonProject/wandb/settings
+2023-10-20 18:00:53,782 INFO    MainThread:80743 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-10-20 18:00:53,782 INFO    MainThread:80743 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': '/Users/felixcohen/PycharmProjects/pythonProject/main.py', 'program': '/Users/felixcohen/PycharmProjects/pythonProject/main.py'}
+2023-10-20 18:00:53,782 INFO    MainThread:80743 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-10-20 18:00:53,782 INFO    MainThread:80743 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-10-20 18:00:53,782 INFO    MainThread:80743 [wandb_init.py:_log_setup():528] Logging user logs to /Users/felixcohen/PycharmProjects/pythonProject/wandb/run-20231020_180053-eyi7yfq4/logs/debug.log
+2023-10-20 18:00:53,782 INFO    MainThread:80743 [wandb_init.py:_log_setup():529] Logging internal logs to /Users/felixcohen/PycharmProjects/pythonProject/wandb/run-20231020_180053-eyi7yfq4/logs/debug-internal.log
+2023-10-20 18:00:53,782 INFO    MainThread:80743 [wandb_init.py:init():568] calling init triggers
+2023-10-20 18:00:53,782 INFO    MainThread:80743 [wandb_init.py:init():575] wandb.init called with sweep_config: {}
+config: {'epochs': 50, 'classes': 10, 'kernels': [6, 16], 'batch_size': 256, 'learning_rate': 0.001, 'dataset': 'MNIST', 'architecture': 'LeNet'}
+2023-10-20 18:00:53,782 INFO    MainThread:80743 [wandb_init.py:init():618] starting backend
+2023-10-20 18:00:53,782 INFO    MainThread:80743 [wandb_init.py:init():622] setting up manager
+2023-10-20 18:00:53,783 INFO    MainThread:80743 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-10-20 18:00:53,860 INFO    MainThread:80743 [wandb_init.py:init():628] backend started and connected
+2023-10-20 18:00:53,862 INFO    MainThread:80743 [wandb_init.py:init():720] updated telemetry
+2023-10-20 18:00:53,863 INFO    MainThread:80743 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-10-20 18:00:54,406 INFO    MainThread:80743 [wandb_run.py:_on_init():2220] communicating current version
+2023-10-20 18:00:54,585 INFO    MainThread:80743 [wandb_run.py:_on_init():2229] got version response 
+2023-10-20 18:00:54,586 INFO    MainThread:80743 [wandb_init.py:init():804] starting run threads in backend
+2023-10-20 18:00:54,619 INFO    MainThread:80743 [wandb_run.py:_console_start():2199] atexit reg
+2023-10-20 18:00:54,619 INFO    MainThread:80743 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-10-20 18:00:54,619 INFO    MainThread:80743 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-10-20 18:00:54,619 INFO    MainThread:80743 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-10-20 18:00:54,619 INFO    MainThread:80743 [wandb_init.py:init():845] run started, returning control to user process
+2023-10-20 18:00:55,702 INFO    MainThread:80743 [wandb_watch.py:watch():51] Watching
+2023-10-20 18:17:58,043 INFO    MainThread:80743 [wandb_run.py:_finish():1934] finishing run felixcohen/LeNet-demo/eyi7yfq4
+2023-10-20 18:17:58,043 INFO    MainThread:80743 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 0
+2023-10-20 18:17:58,043 INFO    MainThread:80743 [wandb_run.py:_restore():2151] restore
+2023-10-20 18:17:58,043 INFO    MainThread:80743 [wandb_run.py:_restore():2157] restore done
+2023-10-20 18:18:03,945 INFO    MainThread:80743 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2023-10-20 18:18:03,947 INFO    MainThread:80743 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2023-10-20 18:18:03,960 INFO    MainThread:80743 [wandb_run.py:_footer_sync_info():3558] logging synced files

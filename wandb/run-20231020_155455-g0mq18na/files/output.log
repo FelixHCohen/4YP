@@ -1,0 +1,41 @@
+LeNet(
+  (conv1): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (fc_1): Linear(in_features=256, out_features=120, bias=True)
+  (fc_2): Linear(in_features=120, out_features=84, bias=True)
+  (fc_3): Linear(in_features=84, out_features=10, bias=True)
+)
+Loss after 12544 examples: 0.262
+Loss after 25344 examples: 0.192
+Loss after 38144 examples: 0.079
+Accuracy of the model on the 10000 test images: 97.460000%
+Loss after 50944 examples: 0.047
+Loss after 63584 examples: 0.061
+Loss after 76384 examples: 0.063
+Accuracy of the model on the 10000 test images: 98.160000%
+Loss after 89184 examples: 0.051
+Loss after 101984 examples: 0.063
+Loss after 114784 examples: 0.030
+Accuracy of the model on the 10000 test images: 98.190000%
+Loss after 127424 examples: 0.054
+Loss after 140224 examples: 0.068
+Loss after 153024 examples: 0.022
+Accuracy of the model on the 10000 test images: 98.570000%
+Loss after 165824 examples: 0.009
+Loss after 178624 examples: 0.113
+Loss after 191264 examples: 0.020
+Accuracy of the model on the 10000 test images: 98.400000%
+Loss after 204064 examples: 0.017
+Loss after 216864 examples: 0.042
+Loss after 229664 examples: 0.059
+Accuracy of the model on the 10000 test images: 98.670000%
+Loss after 242304 examples: 0.031
+Loss after 255104 examples: 0.034
+Loss after 267904 examples: 0.055
+Accuracy of the model on the 10000 test images: 98.460000%
+Loss after 280704 examples: 0.068
+Loss after 293504 examples: 0.040
+Traceback (most recent call last):
+  File "/Users/felixcohen/PycharmProjects/pythonProject/main.py", line 192, in model_pipeline
+    test(model,test_loader)
+TypeError: test() missing 1 required positional argument: 'criterion'

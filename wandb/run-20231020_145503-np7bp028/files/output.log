@@ -1,0 +1,101 @@
+LeNet(
+  (conv1): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (fc_1): Linear(in_features=256, out_features=120, bias=True)
+  (fc_2): Linear(in_features=120, out_features=84, bias=True)
+  (fc_3): Linear(in_features=84, out_features=10, bias=True)
+)
+Loss after 03712 examples: 2.132
+Loss after 07552 examples: 1.978
+Loss after 11392 examples: 1.798
+Loss after 15232 examples: 1.740
+Loss after 19072 examples: 1.824
+Loss after 22912 examples: 1.696
+Loss after 26752 examples: 1.756
+Loss after 30592 examples: 1.875
+Loss after 34432 examples: 1.708
+Loss after 38272 examples: 1.633
+Loss after 42112 examples: 1.724
+Loss after 45952 examples: 1.730
+Loss after 49792 examples: 1.734
+Loss after 53632 examples: 1.772
+Loss after 57472 examples: 1.890
+Loss after 61280 examples: 1.644
+Loss after 65120 examples: 1.809
+Loss after 68960 examples: 1.801
+Loss after 72800 examples: 1.702
+Loss after 76640 examples: 1.764
+Loss after 80480 examples: 1.644
+Loss after 84320 examples: 1.843
+Loss after 88160 examples: 1.786
+Loss after 92000 examples: 1.536
+Loss after 95840 examples: 1.751
+Loss after 99680 examples: 1.771
+Loss after 103520 examples: 1.708
+Loss after 107360 examples: 1.527
+Loss after 111200 examples: 1.799
+Loss after 115040 examples: 1.736
+Loss after 118880 examples: 1.689
+Loss after 122688 examples: 1.742
+Loss after 126528 examples: 1.767
+Loss after 130368 examples: 1.654
+Loss after 134208 examples: 1.709
+Loss after 138048 examples: 1.684
+Loss after 141888 examples: 1.777
+Loss after 145728 examples: 1.859
+Loss after 149568 examples: 1.717
+Loss after 153408 examples: 1.698
+Loss after 157248 examples: 1.675
+Loss after 161088 examples: 1.791
+Loss after 164928 examples: 1.850
+Loss after 168768 examples: 1.682
+Loss after 172608 examples: 1.749
+Loss after 176448 examples: 1.689
+Loss after 180256 examples: 1.630
+Loss after 184096 examples: 1.727
+Loss after 187936 examples: 1.830
+Loss after 191776 examples: 1.666
+Loss after 195616 examples: 1.711
+Loss after 199456 examples: 1.724
+Loss after 203296 examples: 1.505
+Loss after 207136 examples: 1.977
+Loss after 210976 examples: 1.617
+Loss after 214816 examples: 1.680
+Loss after 218656 examples: 1.681
+Loss after 222496 examples: 1.826
+Loss after 226336 examples: 1.911
+Loss after 230176 examples: 1.846
+Loss after 234016 examples: 1.993
+Loss after 237856 examples: 1.648
+Loss after 241664 examples: 1.578
+Loss after 245504 examples: 1.609
+Loss after 249344 examples: 1.690
+Loss after 253184 examples: 1.633
+Loss after 257024 examples: 1.761
+Loss after 260864 examples: 1.693
+Loss after 264704 examples: 1.833
+Loss after 268544 examples: 1.717
+Loss after 272384 examples: 1.705
+Loss after 276224 examples: 1.600
+Loss after 280064 examples: 1.731
+Loss after 283904 examples: 1.682
+Loss after 287744 examples: 1.615
+Loss after 291584 examples: 1.726
+Loss after 295424 examples: 1.729
+Loss after 299264 examples: 1.850
+Traceback (most recent call last):
+  File "/Users/felixcohen/PycharmProjects/pythonProject/main.py", line 183, in model_pipeline
+    test(model,test_loader)
+  File "/Users/felixcohen/PycharmProjects/pythonProject/main.py", line 135, in test
+    for images,labels in test_loader:
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/Users/felixcohen/PycharmProjects/pythonProject/main.py", line 41, in __getitem__
+    image = self.transform(image=image)['image']
+TypeError: 'NoneType' object is not callable

@@ -1,0 +1,31 @@
+{
+    "os": "macOS-13.0.1-arm64-arm-64bit",
+    "python": "3.9.6",
+    "heartbeatAt": "2023-10-20T16:04:35.305475",
+    "startedAt": "2023-10-20T16:04:34.338210",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/felixcohen/PycharmProjects/pythonProject/main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "host": "Felixs-MacBook-Pro.local",
+    "username": "felixcohen",
+    "executable": "/Users/felixcohen/pythonProject/bin/Python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 12.082687377929688
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

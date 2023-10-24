@@ -1,0 +1,106 @@
+LeNet(
+  (conv1): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (fc_1): Linear(in_features=256, out_features=120, bias=True)
+  (fc_2): Linear(in_features=120, out_features=84, bias=True)
+  (fc_3): Linear(in_features=84, out_features=10, bias=True)
+)
+Loss after 06272 examples: 2.061
+Accuracy of the model on the 128 test images: 17.968750%
+Accuracy of the model on the 256 test images: 18.359375%
+Accuracy of the model on the 384 test images: 14.583333%
+Accuracy of the model on the 512 test images: 14.257812%
+Accuracy of the model on the 640 test images: 14.375000%
+Accuracy of the model on the 768 test images: 14.322917%
+Accuracy of the model on the 896 test images: 14.843750%
+Accuracy of the model on the 1024 test images: 15.625000%
+Accuracy of the model on the 1152 test images: 15.364583%
+Accuracy of the model on the 1280 test images: 15.312500%
+Accuracy of the model on the 1408 test images: 14.701705%
+Accuracy of the model on the 1536 test images: 14.583333%
+Accuracy of the model on the 1664 test images: 14.783654%
+Accuracy of the model on the 1792 test images: 14.564732%
+Accuracy of the model on the 1920 test images: 14.843750%
+Accuracy of the model on the 2048 test images: 14.843750%
+Accuracy of the model on the 2176 test images: 15.027574%
+Accuracy of the model on the 2304 test images: 15.234375%
+Accuracy of the model on the 2432 test images: 15.131579%
+Accuracy of the model on the 2560 test images: 15.468750%
+Accuracy of the model on the 2688 test images: 15.438988%
+Accuracy of the model on the 2816 test images: 15.482955%
+Accuracy of the model on the 2944 test images: 15.523098%
+Accuracy of the model on the 3072 test images: 15.494792%
+Accuracy of the model on the 3200 test images: 15.562500%
+Accuracy of the model on the 3328 test images: 15.594952%
+Accuracy of the model on the 3456 test images: 15.827546%
+Accuracy of the model on the 3584 test images: 15.764509%
+Accuracy of the model on the 3712 test images: 15.732759%
+Accuracy of the model on the 3840 test images: 15.833333%
+Accuracy of the model on the 3968 test images: 15.977823%
+Accuracy of the model on the 4096 test images: 16.064453%
+Accuracy of the model on the 4224 test images: 16.051136%
+Accuracy of the model on the 4352 test images: 15.992647%
+Accuracy of the model on the 4480 test images: 16.116071%
+Accuracy of the model on the 4608 test images: 16.059028%
+Accuracy of the model on the 4736 test images: 15.962838%
+Accuracy of the model on the 4864 test images: 16.015625%
+Accuracy of the model on the 4992 test images: 15.865385%
+Accuracy of the model on the 5120 test images: 15.820312%
+Accuracy of the model on the 5248 test images: 15.777439%
+Accuracy of the model on the 5376 test images: 15.699405%
+Accuracy of the model on the 5504 test images: 15.734012%
+Accuracy of the model on the 5632 test images: 15.802557%
+Accuracy of the model on the 5760 test images: 15.711806%
+Accuracy of the model on the 5888 test images: 15.743886%
+Accuracy of the model on the 6016 test images: 15.724734%
+Accuracy of the model on the 6144 test images: 15.820312%
+Accuracy of the model on the 6272 test images: 15.800383%
+Accuracy of the model on the 6400 test images: 15.671875%
+Accuracy of the model on the 6528 test images: 15.655637%
+Accuracy of the model on the 6656 test images: 15.534856%
+Accuracy of the model on the 6784 test images: 15.536557%
+Accuracy of the model on the 6912 test images: 15.494792%
+Accuracy of the model on the 7040 test images: 15.440341%
+Accuracy of the model on the 7168 test images: 15.485491%
+Accuracy of the model on the 7296 test images: 15.446820%
+Accuracy of the model on the 7424 test images: 15.342134%
+Accuracy of the model on the 7552 test images: 15.280720%
+Accuracy of the model on the 7680 test images: 15.325521%
+Accuracy of the model on the 7808 test images: 15.432889%
+Accuracy of the model on the 7936 test images: 15.486391%
+Accuracy of the model on the 8064 test images: 15.525794%
+Accuracy of the model on the 8192 test images: 15.539551%
+Accuracy of the model on the 8320 test images: 15.540865%
+Accuracy of the model on the 8448 test images: 15.542140%
+Accuracy of the model on the 8576 test images: 15.531716%
+Accuracy of the model on the 8704 test images: 15.533088%
+Accuracy of the model on the 8832 test images: 15.534420%
+Accuracy of the model on the 8960 test images: 15.502232%
+Accuracy of the model on the 9088 test images: 15.426937%
+Accuracy of the model on the 9216 test images: 15.451389%
+Accuracy of the model on the 9344 test images: 15.485873%
+Accuracy of the model on the 9472 test images: 15.529983%
+Accuracy of the model on the 9600 test images: 15.572917%
+Accuracy of the model on the 9728 test images: 15.655839%
+Accuracy of the model on the 9856 test images: 15.716315%
+Accuracy of the model on the 9984 test images: 15.635016%
+Accuracy of the model on the 10000 test images: 15.640000%
+Traceback (most recent call last):
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/onnx/_internal/onnx_proto_utils.py", line 221, in _add_onnxscript_fn
+    import onnx
+ModuleNotFoundError: No module named 'onnx'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/Users/felixcohen/PycharmProjects/pythonProject/main.py", line 184, in model_pipeline
+    train(model,train_loader,test_loader,criterion,optimizer,config)
+  File "/Users/felixcohen/PycharmProjects/pythonProject/main.py", line 128, in train
+    test(model,test_loader)
+  File "/Users/felixcohen/PycharmProjects/pythonProject/main.py", line 151, in test
+    torch.onnx.export(model, images, "model.onnx")
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/onnx/utils.py", line 516, in export
+    _export(
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/onnx/utils.py", line 1670, in _export
+    proto = onnx_proto_utils._add_onnxscript_fn(
+  File "/Users/felixcohen/pythonProject/lib/python3.9/site-packages/torch/onnx/_internal/onnx_proto_utils.py", line 223, in _add_onnxscript_fn
+    raise errors.OnnxExporterError("Module onnx is not installed!") from e
+torch.onnx.errors.OnnxExporterError: Module onnx is not installed!
